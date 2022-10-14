@@ -1,7 +1,6 @@
 # MCLN
 ## Multimodal Counterfactual Learning Network for Multimedia-based Recommendation
 
-
 We provide tensorflow implementation for MCLN.
 
 ## prerequisites
