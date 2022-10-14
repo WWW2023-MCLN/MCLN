@@ -12,7 +12,7 @@ import random as rd
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
-model_name = 'MGCL'
+model_name = 'MCLN'
 data_path = '../Data/'
 
 '''
@@ -23,7 +23,7 @@ Hyper-parameter settings.
 batch_size = 2048
 dataset = 'Taobao'
 n_layers = 5
-decay = 0.001
+decay = 1e-3
 lambda_m = 0.2
 interval = 5
 
